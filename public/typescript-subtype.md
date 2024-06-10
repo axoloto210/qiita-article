@@ -1,10 +1,10 @@
 ---
 title: 部分型って"拡張型"じゃない？集合論で捉えてみる
 tags:
-  - 'TypeScript'
+  - TypeScript
 private: false
-updated_at: ''
-id: null
+updated_at: '2024-06-11T01:33:57+09:00'
+id: 7237e172bae11b41b991
 organization_url_name: null
 slide: false
 ignorePublish: false
