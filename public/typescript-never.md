@@ -3,8 +3,8 @@ title: 型における空集合、never型とは
 tags:
   - TypeScript
 private: false
-updated_at: ''
-id: null
+updated_at: '2024-06-11T22:46:35+09:00'
+id: 8fd390c41972bdb8c37e
 organization_url_name: null
 slide: false
 ignorePublish: false
