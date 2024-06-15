@@ -3,8 +3,8 @@ title: Record型やReturnType型などのユーティリティ型をみてみる
 tags:
   - TypeScript
 private: false
-updated_at: ''
-id: null
+updated_at: '2024-06-16T01:33:38+09:00'
+id: ad5b80bd2de833e73a21
 organization_url_name: null
 slide: false
 ignorePublish: false
