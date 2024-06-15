@@ -9,13 +9,13 @@ importers:
   .:
     devDependencies:
       '@qiita/qiita-cli':
-        specifier: ^1.4.1
-        version: 1.4.1
+        specifier: ^1.4.2
+        version: 1.4.2
 
 packages:
 
-  '@qiita/qiita-cli@1.4.1':
-    resolution: {integrity: sha512-5+jElFHpoFl+JkArlTi4dmPhqOf5/rb5LloNeXLVOaYLvgw7qAGvH2w5OcNmr0K0dE1NIsVk5/1VumqWVnt0Gg==}
+  '@qiita/qiita-cli@1.4.2':
+    resolution: {integrity: sha512-J8CYyT8WN+cpJBVDfKPJou6gKIru4GSULKBeFpbwmHqcLDfCwq+O6uRBBjHpTCYRq+yaLu8R5Rp/Gh7AtQUwNg==}
     engines: {node: '>=18.12.0'}
     hasBin: true
 
@@ -507,7 +507,7 @@ packages:
 
 snapshots:
 
-  '@qiita/qiita-cli@1.4.1':
+  '@qiita/qiita-cli@1.4.2':
     dependencies:
       arg: 5.0.2
       boxen: 7.1.1
