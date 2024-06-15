@@ -3,8 +3,8 @@ title: PickやPartialなどのユーティリティ型はどのように作ら�
 tags:
   - TypeScript
 private: false
-updated_at: ''
-id: null
+updated_at: '2024-06-16T01:44:42+09:00'
+id: 53ad7d645f93d6b73bdb
 organization_url_name: null
 slide: false
 ignorePublish: false
