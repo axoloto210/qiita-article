@@ -3,8 +3,8 @@ title: Mapped Typesを集合と写像の観点から捉える
 tags:
   - TypeScript
 private: false
-updated_at: ''
-id: null
+updated_at: '2024-06-16T01:42:14+09:00'
+id: f019854bc9c6af2f0979
 organization_url_name: null
 slide: false
 ignorePublish: false
