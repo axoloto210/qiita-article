@@ -1,7 +1,7 @@
 ---
 title: Next.jsのMiddlewareでBasic認証をつけるには
 tags:
-  - '[Next.js, AppRouter, PagesRouter, TypeScript]'
+  - [Next.js, AppRouter, PagesRouter, TypeScript]
 private: false
 updated_at: ''
 id: null
