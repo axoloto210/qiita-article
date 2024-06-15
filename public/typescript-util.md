@@ -11,7 +11,7 @@ ignorePublish: false
 ---
 :::note
 本記事はZennに投稿している記事に加筆したものになります。
-https://zenn.dev/axoloto210/articles/advent-calender-2023-day11
+https://zenn.dev/axoloto210/articles/advent-calender-2023-day21
 :::
 
 ## ユーティリティ型（組み込み型）

@@ -9,6 +9,10 @@ organization_url_name: null
 slide: false
 ignorePublish: false
 ---
+:::note
+本記事はZennに投稿している記事に加筆したものになります。
+https://zenn.dev/axoloto210/articles/advent-calender-2023-day22
+:::
 ## Mapped Types
 Mapped Typesは他の型をもとにオブジェクト型を生成できる機能で、`{[P in T]: U}`という構文で表されます。
 ```ts

@@ -11,7 +11,7 @@ ignorePublish: false
 ---
 :::note
 本記事はZennに投稿している記事に加筆したものになります。
-https://zenn.dev/axoloto210/articles/advent-calender-2023-day11
+https://zenn.dev/axoloto210/articles/advent-calender-2023-day17
 :::
 
 オブジェクトはプロパティの型やオブジェクト自身の型など、複数の型が組み合わさってできていますが、このオブジェクト型を扱いやすくする機能として、`lookup`型と`keyof`型があります。
