@@ -3,8 +3,8 @@ title: オブジェクト型を支えるlookup型とkeyof型
 tags:
   - TypeScript
 private: false
-updated_at: ''
-id: null
+updated_at: '2024-06-16T01:29:46+09:00'
+id: 6d9f4d3d0b599af17842
 organization_url_name: null
 slide: false
 ignorePublish: false
