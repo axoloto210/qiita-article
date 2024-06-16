@@ -72,10 +72,12 @@ type Reverse = ReverseFunction<(num: number) => string>
 その後、`(arg: V) => U`という元の関数型と比べて引数と返り値の型が逆になった型が返されています。
 ## `infer`が使われているユーティリティ型
 TypeScriptに標準で組み込まれている型であるユーティリティ型のうち、`Parameters`型や`ReturnType`型、`Awaited`型などの実装には`infer`が使用されています。以下の記事でも触れていますので、興味があれば実装を確認してみてください。
+
 https://qiita.com/axoloto210/items/ad5b80bd2de833e73a21
 
 ## Zodのinferはなにもの？
 Next.js のチュートリアルにも登場するバリデーションライブラリ、Zodにも型を推論する機能として`z.infer<T>`というものがあります。
+
 https://zod.dev/
 ```ts
 import { z } from "zod";
