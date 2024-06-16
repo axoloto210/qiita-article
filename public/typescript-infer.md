@@ -3,8 +3,8 @@ title: inferとはなにものか？Zodを添えて
 tags:
   - TypeScript
 private: false
-updated_at: ''
-id: null
+updated_at: '2024-06-16T23:30:46+09:00'
+id: b3cef09acf7d61fa9e6c
 organization_url_name: null
 slide: false
 ignorePublish: false
