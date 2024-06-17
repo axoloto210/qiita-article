@@ -20,7 +20,7 @@ JSX とはReactでも採用されているJavaScriptの拡張構文であり、J
 JSXでは、return内の条件分岐は主に論理積演算子`&&`や三項演算子`? :`によって表されることが多いですが、これはどちらも条件分岐を式で表現できる点で`if`とは異なります。
 
 論理積演算子`&&`による条件分岐
-```js:App.js
+```jsx:App.jsx
 function App() {
   const random = Math.random();
   return (
@@ -41,7 +41,7 @@ https://ja.react.dev/learn/writing-markup-with-jsx
 
 ### if をreturn 内で使うには
 どうしても`if`文を使用したいという場合には、`(()=>{if文})`というような関数を`return`内で実行することで**式**を返すようにすることで、`if`の使用が可能になります（即時関数）。
-```js:App.js
+```jsx:App.jsx
 function App() {
   const random = Math.random();
   return (
@@ -60,7 +60,7 @@ function App() {
 export default App;
 ```
 `if`を使用することはできていますが上の例では三項演算子を利用する方が可読性は上がりますね。
-```js
+```jsx
 {random >= 0.5 ? (
         <div> {random} is greater than or equal to 1/2</div>
       ) : (
@@ -70,7 +70,7 @@ export default App;
 
 分岐が多い場合には`switch`文なども使用することができます。
 文であっても、式を返すようにすれば使用可能になります。
-```js:App.js
+```jsx:App.jsx
 function App() {
   const random = Math.random();
   return (
@@ -103,7 +103,7 @@ export default App;
 :::
 
 ## JSX では式を１つしか返せない
-```js
+```jsx
 function App() {
   return(
     <div>a</div>
