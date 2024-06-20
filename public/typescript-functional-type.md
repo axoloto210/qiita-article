@@ -3,8 +3,8 @@ title: 関数型の表現方法をまとめる
 tags:
   - TypeScript
 private: false
-updated_at: ''
-id: null
+updated_at: '2024-06-21T08:47:57+09:00'
+id: 8c10a0eddd2e73632721
 organization_url_name: null
 slide: false
 ignorePublish: false
