@@ -3,8 +3,8 @@ title: 型推論を抑えるためのユーティリティ型！？ NoInfer型
 tags:
   - TypeScript
 private: false
-updated_at: ''
-id: null
+updated_at: '2024-06-22T21:05:57+09:00'
+id: 118a7d0abb60fcdf6ac4
 organization_url_name: null
 slide: false
 ignorePublish: false
