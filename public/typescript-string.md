@@ -3,8 +3,8 @@ title: 文字列はプリミティブ値なのにlengthプロパティをもつ�
 tags:
   - TypeScript
 private: false
-updated_at: ''
-id: null
+updated_at: '2024-06-22T18:09:13+09:00'
+id: b2ccdb70172ad290ac99
 organization_url_name: null
 slide: false
 ignorePublish: false
