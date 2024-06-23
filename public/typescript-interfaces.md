@@ -1,5 +1,5 @@
 ---
-title: interface宣言と構造的型付け
+title: interface宣言~オブジェクト型を宣言するもう１つの方法~
 tags:
   - TypeScript
 private: false
