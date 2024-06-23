@@ -11,3 +11,5 @@ interface Human {
 interface Fish2 {
     name: string
 }
+
+export {}
