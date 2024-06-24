@@ -3,8 +3,8 @@ title: interface宣言~オブジェクト型を宣言するもう１つの方法
 tags:
   - TypeScript
 private: false
-updated_at: ''
-id: null
+updated_at: '2024-06-24T23:16:58+09:00'
+id: b4b61484438b487a68eb
 organization_url_name: null
 slide: false
 ignorePublish: false
