@@ -1,15 +1,15 @@
 type Fish = {
-    name: string
+  name: string
 }
 
 interface Human {
-    age: number
+  age: number
 }
 
 // const a: Fish & Human = {name : 'Salmon'}
 
 interface Fish2 {
-    name: string
+  name: string
 }
 
 export {}
