@@ -3,8 +3,8 @@ title: interface 宣言のDeclaration Merging とは
 tags:
   - TypeScript
 private: false
-updated_at: ''
-id: null
+updated_at: '2024-06-25T09:00:02+09:00'
+id: bccc48dd900f86bd47bd
 organization_url_name: null
 slide: false
 ignorePublish: false
