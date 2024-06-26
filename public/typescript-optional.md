@@ -1,10 +1,10 @@
 ---
-title: ?(オプショナルプロパティ)と| undefined の違い
+title: '?(オプショナルプロパティ)と| undefined の違い'
 tags:
   - TypeScript
 private: false
-updated_at: ''
-id: null
+updated_at: '2024-06-26T18:04:25+09:00'
+id: 8328865d3112a32488dc
 organization_url_name: null
 slide: false
 ignorePublish: false
