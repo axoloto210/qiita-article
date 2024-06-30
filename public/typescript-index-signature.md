@@ -3,8 +3,8 @@ title: インデックスシグネチャと型安全性
 tags:
   - TypeScript
 private: false
-updated_at: ''
-id: null
+updated_at: '2024-06-30T15:08:31+09:00'
+id: 57d9af11703f120fc0da
 organization_url_name: null
 slide: false
 ignorePublish: false
