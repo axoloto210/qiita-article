@@ -3,8 +3,8 @@ title: 型アサーションよりユーザー定義型ガードを。
 tags:
   - TypeScript
 private: false
-updated_at: ''
-id: null
+updated_at: '2024-07-02T13:39:15+09:00'
+id: 909b8f4b9d84cccdf76e
 organization_url_name: null
 slide: false
 ignorePublish: false
