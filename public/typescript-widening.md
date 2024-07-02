@@ -3,8 +3,8 @@ title: リテラル型のwideningと型推論
 tags:
   - TypeScript
 private: false
-updated_at: ''
-id: null
+updated_at: '2024-07-02T09:10:39+09:00'
+id: f4b5de36cefd59c30789
 organization_url_name: null
 slide: false
 ignorePublish: false
