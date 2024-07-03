@@ -3,8 +3,8 @@ title: readonlyなプロパティも書き換えられうる
 tags:
   - TypeScript
 private: false
-updated_at: ''
-id: null
+updated_at: '2024-07-03T09:35:07+09:00'
+id: e37776550d027de3058b
 organization_url_name: null
 slide: false
 ignorePublish: false
