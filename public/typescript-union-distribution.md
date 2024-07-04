@@ -3,8 +3,8 @@ title: Union DistributionとDistributive Conditional Types
 tags:
   - TypeScript
 private: false
-updated_at: ''
-id: null
+updated_at: '2024-07-04T10:06:28+09:00'
+id: 627b019995b81d918f7d
 organization_url_name: null
 slide: false
 ignorePublish: false
