@@ -63,7 +63,10 @@ console.log(Object.is(state, initialState))
 
 配列への追加や削除、更新などの用途に応じて以下でみていきます。
 ### 配列への追加
-`concat`や`push`、`unshift`など
+スプレット構文や`concat`、`push`や`unshift`など
+
+https://qiita.com/axoloto210/items/2092c31d437418ab94cc
+
 ### 配列への更新
 `map`や`splice`など
 ### 配列への削除
