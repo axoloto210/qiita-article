@@ -1,5 +1,5 @@
 ---
-title: React での配列への要素追加
+title: React での配列への要素追加方法
 tags:
   - JavaScript
   - React
