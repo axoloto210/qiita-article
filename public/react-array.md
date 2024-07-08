@@ -70,7 +70,7 @@ https://qiita.com/axoloto210/items/2092c31d437418ab94cc
 ### 配列への更新
 `map`や`splice`など
 
-https://qiita.com/axoloto210/items/2092c31d437418ab94cc
+https://qiita.com/axoloto210/items/7ecf07764134d8aa185c
 
 ### 配列要素の削除
 `filter`や`slice`、`splice`など
