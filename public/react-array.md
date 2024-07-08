@@ -3,7 +3,7 @@ title: Reactの配列操作にご用心
 tags:
   - JavaScript
   - React
-private: true
+private: false
 updated_at: '2024-07-08T23:39:12+09:00'
 id: cb93a3aebc3521cace3f
 organization_url_name: null
@@ -69,7 +69,13 @@ https://qiita.com/axoloto210/items/2092c31d437418ab94cc
 
 ### 配列への更新
 `map`や`splice`など
+
+https://qiita.com/axoloto210/items/2092c31d437418ab94cc
+
 ### 配列要素の削除
 `filter`や`slice`、`splice`など
 ### 配列要素の並び替え
 `sort`や`reverse`など
+
+## 直接変更を加えるメソッドを使うには
+変更を加えたい配列をあらかじめ複製しておき、複製した配列に対して操作を加えるようにすれば、直接変更を加えるメソッドでも問題なく使用できるので安心です。
