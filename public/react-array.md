@@ -74,6 +74,9 @@ https://qiita.com/axoloto210/items/7ecf07764134d8aa185c
 
 ### 配列要素の削除
 `filter`や`slice`、`splice`など
+
+https://qiita.com/axoloto210/items/dde6f9884049f435e920
+
 ### 配列要素の並び替え
 `sort`や`reverse`など
 
