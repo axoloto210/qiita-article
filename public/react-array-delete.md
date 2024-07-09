@@ -87,7 +87,7 @@ https://developer.mozilla.org/ja/docs/Web/JavaScript/Reference/Global_Objects/Ar
 `splice(start, deleteCount, item1, item2)`のように、`splice`は複数の引数を取ります。
 第１引数の`start`によって、変更を加える配列の要素の位置を指定します。
 
-第２引数の`deleteCount`によって、`start`番目の要素からいくつ要素を削除するかを指定します。
+第２引数の`deleteCount`によって、`start`番目[^1]の要素からいくつ要素を削除するかを指定します。
 削除する要素には`start`番目の要素を含みます。
 また、`start`番目以降の要素を削除するには`Infinity`を指定します。
 ```ts
@@ -108,7 +108,7 @@ array.splice(1, 2, 'e', 'f')
 console.log(array)
 //[ 'a', 'e', 'f', 'd' ]
 ```
-上の例では、第１引数の`1`によって`array`のインデックスでの1番目、つまり配列の先頭から2番目の要素`'b'`の位置が開始位置として指定されています。
+上の例では、第１引数の`1`によって`array`のインデックスでの1番目、つまり配列の先頭から2つ目の要素`'b'`の位置が開始位置として指定されています。
 第２引数の`2`によって、2番目の要素から2つ、つまり2番目の要素`'b'`と3番目の要素`'c'`が削除されます。
 最後に第3引数以降の値が第１引数で指定した箇所から順次追加されていきます。
 
@@ -127,3 +127,5 @@ console.log(array)
 https://developer.mozilla.org/ja/docs/Web/JavaScript/Reference/Global_Objects/Array/splice
 
 `pop()`や`shift()`、`splice()`など直接配列から要素を削除するメソッドを使用する際には、配列の複製を新たに作成してから削除処理を行うことで、`useState`のset 関数に変更が検知されるようにできます。
+
+[^1]:0番目から始まるインデックスでの番目。先頭から`start + 1`番目。
