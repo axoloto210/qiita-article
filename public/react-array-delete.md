@@ -4,7 +4,7 @@ tags:
   - TypeScript
   - React
 private: false
-updated_at: '2024-07-09T20:19:52+09:00'
+updated_at: '2024-07-09T20:23:07+09:00'
 id: dde6f9884049f435e920
 organization_url_name: null
 slide: false
