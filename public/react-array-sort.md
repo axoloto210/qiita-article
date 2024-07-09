@@ -1,11 +1,11 @@
 ---
 title: React での配列の並び替え
 tags:
-  - React
   - TypeScript
+  - React
 private: false
-updated_at: ''
-id: null
+updated_at: '2024-07-10T01:06:02+09:00'
+id: bd37f5906c21c742d3a4
 organization_url_name: null
 slide: false
 ignorePublish: false
