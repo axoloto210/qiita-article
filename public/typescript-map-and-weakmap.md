@@ -3,8 +3,8 @@ title: MapとWeakMapとガベージコレクションと
 tags:
   - TypeScript
 private: false
-updated_at: ''
-id: null
+updated_at: '2024-07-10T21:09:16+09:00'
+id: 35e89511d1a5c79309cf
 organization_url_name: null
 slide: false
 ignorePublish: false
