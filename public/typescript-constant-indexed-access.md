@@ -3,8 +3,8 @@ title: 「実質的な定数」キーのインデックスアクセスで型を�
 tags:
   - TypeScript
 private: false
-updated_at: ''
-id: null
+updated_at: '2024-07-11T23:17:49+09:00'
+id: eaf7f72b7be844f67fcc
 organization_url_name: null
 slide: false
 ignorePublish: false
