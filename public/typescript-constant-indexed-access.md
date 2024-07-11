@@ -56,6 +56,8 @@ Property 'key' does not exist on type '{ foo: string; }'.(2339)
 
 `const`で置き換えても問題ない場合に、「実質的な定数」として扱われるわけですね。
 
+https://github.com/microsoft/TypeScript/pull/57847
+
 ## インデックスアクセスによる型の絞り込み
 TypeScript 5.5 からは「実質的な定数」キーを使ったインデックスアクセスによる型の絞り込みが効くようになりました。
 
