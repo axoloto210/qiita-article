@@ -1,13 +1,16 @@
-import { useState } from "react";
-
 import "./App.css";
+import { NonOptimizedList } from "../src/components/NonOptimized";
+import { useState } from "react";
+import { OptimizedList } from "./components/Optimized";
 
 function App() {
-  const [count, setCount] = useState(0);
-
+  const [isOptimized, setIsOptimized] = useState<boolean>(false);
   return (
     <>
-      <div>{count}</div>
+      <button onClick={() => setIsOptimized(!isOptimized)}>
+        {isOptimized ? "Optimized" : "NonOptimized"}
+      </button>
+      {isOptimized ? <OptimizedList /> : <NonOptimizedList />}
     </>
   );
 }
