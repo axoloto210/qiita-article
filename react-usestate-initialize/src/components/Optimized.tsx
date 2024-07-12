@@ -8,11 +8,11 @@ const initializeState = () => {
     initialState.reverse();
   }
   console.log("最適化コンポーネントでinitializeState が呼び出されました");
-  return [];
+  return [3, 2, 1];
 };
 
 export const OptimizedList = () => {
-  const [state, ] = useState(initializeState);
+  const [state] = useState(initializeState);
   const [lang, setLang] = useState<"en" | "ja">("ja");
 
   return (
@@ -26,11 +26,11 @@ export const OptimizedList = () => {
       >
         {lang}
       </button>
-      <li>
+      <ul>
         {state.map((element) => {
-          return <ul key={element}>{element}</ul>;
+          return <li key={element}>{element}</li>;
         })}
-      </li>
+      </ul>
     </>
   );
 };
