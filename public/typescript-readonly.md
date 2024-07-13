@@ -9,7 +9,7 @@ organization_url_name: null
 slide: false
 ignorePublish: false
 ---
-## readonly修飾士
+## readonly修飾子
 オブジェクトの型を宣言するときに、プロパティ名の前に`readonly`をつけることで、そのプロパティを読み取り専用にすることができます。
 ```ts
 type ReadonlyObj = {
@@ -29,7 +29,7 @@ Cannot assign to 'num' because it is a read-only property.(2540)
 ```
 `readonly`をつけることによって、変更されたくないプロパティを型で明示することができます。
 ## readonly なプロパティでも変更されうる
-この`readonly`修飾士をプロパティにつけている場合でも、**関数を介すことで値が書き換えられてしまう**場合があります。
+この`readonly`修飾子をプロパティにつけている場合でも、**関数を介すことで値が書き換えられてしまう**場合があります。
 
 ```ts
 type Obj = {
