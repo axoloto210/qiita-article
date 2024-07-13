@@ -1,11 +1,11 @@
 import { useState } from "react";
 
 const initializeState = () => {
-  const initialState: number[] = [];
+  const expensivelyProcessedList: number[] = [];
   for (let i = 0; i < 10000; i++) {
-    initialState.push(i);
-    initialState.sort();
-    initialState.reverse();
+    expensivelyProcessedList.push(i);
+    expensivelyProcessedList.sort();
+    expensivelyProcessedList.reverse();
   }
   console.log("最適化コンポーネントでinitializeState が呼び出されました");
   return [3, 2, 1];
