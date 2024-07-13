@@ -1,11 +1,11 @@
 ---
 title: setTimeoutの型と非同期処理
 tags:
-  - TypeScript
   - JavaScript
+  - TypeScript
 private: false
-updated_at: ''
-id: null
+updated_at: '2024-07-13T20:53:24+09:00'
+id: 6ff2b5dbf1ddcdc90565
 organization_url_name: null
 slide: false
 ignorePublish: false
