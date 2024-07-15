@@ -3,8 +3,8 @@ title: Homomorphic Mapped Types と準同型写像
 tags:
   - TypeScript
 private: false
-updated_at: ''
-id: null
+updated_at: '2024-07-15T16:55:44+09:00'
+id: e26ed657f8021b813eee
 organization_url_name: null
 slide: false
 ignorePublish: false
