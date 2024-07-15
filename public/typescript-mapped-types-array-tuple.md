@@ -3,7 +3,7 @@ title: Mapped Types による配列型・タプル型の保持
 tags:
   - TypeScript
 private: true
-updated_at: '2024-07-15T16:49:02+09:00'
+updated_at: '2024-07-15T16:51:00+09:00'
 id: 9020310b88f68190b6e7
 organization_url_name: null
 slide: false
