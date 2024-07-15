@@ -1,6 +1,6 @@
 type Fish = {
-  name: string;
-  age: number;
+  name: string
+  age: number
 };
 
 const fish: Fish = {
