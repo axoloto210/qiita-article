@@ -4,6 +4,9 @@ type HMT<T> = {
     [P in keyof T]: string | undefined
 }
 
+//type ArrayHMT = (string | undefined)[]
+type ArrayHMT = HMT<number[]>
+
 // type ArrayMT = {
 //     [x: number]: string | undefined;
 //     length: string | undefined;
@@ -18,9 +21,8 @@ type ArrayMT = {
     [P in keyof number[]]: string | undefined
 }
 
-//type ArrayHMT = (string | undefined)[]
-type ArrayHMT = HMT<number[]>
-
+// type TuppleHMT = [string | undefined, string | undefined]
+type TuppleHMT = HMT<[number, string]>
 
 // type TupleMT = {
 //     [x: number]: string | undefined;
@@ -36,8 +38,7 @@ type ArrayHMT = HMT<number[]>
 type TupleMT = {
     [P in keyof [number, string]]: string | undefined
 }
-// type TuppleHMT = [string | undefined, string | undefined]
-type TuppleHMT = HMT<[number, string]>
+
 
 
 export{}
