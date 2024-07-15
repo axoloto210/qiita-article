@@ -3,8 +3,8 @@ title: ユーザー定義型ガード（型述語）で少しでも型安全に
 tags:
   - TypeScript
 private: false
-updated_at: ''
-id: null
+updated_at: '2024-07-15T16:49:02+09:00'
+id: dbbb5c608d719393c3bd
 organization_url_name: null
 slide: false
 ignorePublish: false
