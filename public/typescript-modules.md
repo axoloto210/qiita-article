@@ -1,11 +1,11 @@
 ---
-title: export {};でファイルをモジュールとして扱わせる
+title: 'export {};でファイルをモジュールとして扱わせる'
 tags:
-  - TypeScript
   - JavaScript
+  - TypeScript
 private: false
-updated_at: ''
-id: null
+updated_at: '2024-07-15T16:04:34+09:00'
+id: ba4afc16ff92e43d9b5f
 organization_url_name: null
 slide: false
 ignorePublish: false
