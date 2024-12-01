@@ -4,7 +4,7 @@ tags:
   - JavaScript
   - TypeScript
 private: false
-updated_at: '2024-07-14T13:41:58+09:00'
+updated_at: '2024-10-20T22:44:15+09:00'
 id: 9f8ad3556519f0ca0978
 organization_url_name: null
 slide: false
@@ -79,7 +79,8 @@ https://developer.mozilla.org/ja/docs/Web/JavaScript/Enumerability_and_ownership
 
 ### `symbol`型のプロパティキーと列挙
 `symbol`型のプロパティキーを持つオブジェクトに列挙メソッドを適用しても、`symbol`型のキーを持つプロパティは列挙されません。
-`symbol`型のキーは、「列挙可能な」プロパティキーではないわけです。
+~~`symbol`型のキーは、「列挙可能な」プロパティキーではないわけです。~~
+（[ご指摘](https://qiita.com/axoloto210/items/9f8ad3556519f0ca0978#comment-824e2525f2eb49ceaeff)いただいた通り、列挙メソッドによって列挙されることと「列挙可能」であることは異なるものです。）
 ```ts
 const squidSymbol = Symbol('squid')
 
