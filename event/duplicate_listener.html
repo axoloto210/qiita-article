@@ -10,11 +10,10 @@
   </body>
   <script>
     const btn = document.getElementById("btn");
-    btn.addEventListener("click", () => {
+    const clickHandler = () => {
       console.log("clicked!");
-    });
-    btn.addEventListener("click", () => {
-      console.log("clicked!");
-    });
+    };
+    btn.addEventListener("click", clickHandler);
+    btn.addEventListener("click", clickHandler);
   </script>
 </html>
