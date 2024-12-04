@@ -2,6 +2,7 @@
 title: イベントの伝播・キャプチャリングとバブリング
 tags:
   - JavaScript
+  - DOM
 private: false
 updated_at: ''
 id: null
