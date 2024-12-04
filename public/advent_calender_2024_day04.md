@@ -2,10 +2,10 @@
 title: イベントの伝播・キャプチャリングとバブリング
 tags:
   - JavaScript
-  - DOM
+  - dom
 private: false
-updated_at: ''
-id: null
+updated_at: '2024-12-04T23:48:36+09:00'
+id: aba3738bccf47b7adada
 organization_url_name: null
 slide: false
 ignorePublish: false
