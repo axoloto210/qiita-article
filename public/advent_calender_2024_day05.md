@@ -3,8 +3,8 @@ title: CSS詳細度とは
 tags:
   - CSS
 private: false
-updated_at: ''
-id: null
+updated_at: '2024-12-05T21:06:57+09:00'
+id: a0cef9e7bdd27cd3345e
 organization_url_name: null
 slide: false
 ignorePublish: false
