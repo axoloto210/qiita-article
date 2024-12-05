@@ -1,0 +1,22 @@
+p.p-class { /* 0-1-1 */
+    color: cyan;
+}
+
+
+p { /* 0-0-1 */
+  color: red;
+}
+
+.p-class { /* 0-1-0 */
+  color: blue ;
+}
+
+#pid { /* 1-0-0 */
+    color:yellow
+}
+
+
+
+
+
+/* #pid > p.p-class > .p-class > p*/
