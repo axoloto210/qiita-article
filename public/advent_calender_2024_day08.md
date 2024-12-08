@@ -3,8 +3,8 @@ title: 配列のようなオブジェクト、Array-like object とは
 tags:
   - JavaScript
 private: false
-updated_at: ''
-id: null
+updated_at: '2024-12-09T02:43:18+09:00'
+id: 77143467309876eebbcb
 organization_url_name: null
 slide: false
 ignorePublish: false
