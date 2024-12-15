@@ -2,11 +2,11 @@
 title: 正規表現とRegExpクラス
 tags:
   - JavaScript
-  - TypeScript
   - 正規表現
+  - TypeScript
 private: false
-updated_at: ''
-id: null
+updated_at: '2024-12-16T01:06:49+09:00'
+id: 393b30b73fcb1664d017
 organization_url_name: null
 slide: false
 ignorePublish: false
