@@ -4,7 +4,7 @@ tags:
   - JavaScript
   - 正規表現
 private: false
-updated_at: '2024-12-11T20:38:13+09:00'
+updated_at: '2024-12-15T15:00:26+09:00'
 id: 7814c2ccd60ce3dbfe69
 organization_url_name: null
 slide: false
@@ -77,6 +77,12 @@ https://developer.mozilla.org/ja/docs/Web/JavaScript/Reference/Regular_expressio
 https://developer.mozilla.org/ja/docs/Web/JavaScript/Reference/Global_Objects/RegExp/unicode
 
 https://developer.mozilla.org/ja/docs/Web/JavaScript/Reference/Regular_expressions/Unicode_character_class_escape
+
+#### `y`フラグ
+`RegExp`メソッドである`exec`や`test`で正規表現オブジェクトの`lastIndex`番目のインデックスから検索するようになります。
+また、`String.prototype.match`と`RegExp.prototype.exec`の挙動が変わります。
+
+https://qiita.com/axoloto210/items/393b30b73fcb1664d017
 
 [^1]:Unicode文字には複数のUnicode文字プロパティが設定されています。
 [^2]:`٣`はアラビア数字で3にあたる数字です。
