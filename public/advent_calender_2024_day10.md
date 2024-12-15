@@ -2,6 +2,7 @@
 title: 正規表現と文字クラス・フラグ
 tags:
   - JavaScript
+  - 正規表現
 private: false
 updated_at: '2024-12-11T20:38:13+09:00'
 id: 7814c2ccd60ce3dbfe69
