@@ -3,8 +3,8 @@ title: 包含ブロックとposition
 tags:
   - CSS
 private: false
-updated_at: ''
-id: null
+updated_at: '2024-12-20T02:15:45+09:00'
+id: dc00f40138385a8d2dfb
 organization_url_name: null
 slide: false
 ignorePublish: false
