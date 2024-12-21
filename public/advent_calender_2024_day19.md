@@ -56,20 +56,20 @@ for(const num of iterableObject){
 
 ## イテレータ
 イテレータとは、要素に順にアクセスするための仕組みのことで、JavaScript では`next()`メソッドを実装したオブジェクトのことをイテレータと呼びます。
-### `next`メソッド
-`next`メソッドは、**反復結果オブジェクト**（IteratorResult）を返すメソッドです。
+### `next()`メソッド
+`next()`メソッドは、**反復結果オブジェクト**（IteratorResult）を返すメソッドです。
 
 **反復結果オブジェクト**とは、`done`、`value`プロパティを持つオブジェクトで、`done`には`boolean`が、`value`には任意の値[^1]がはいります。
 
-### `next`の仕様
+### `next()`の仕様
 [ECMAScript 仕様書](https://tc39.es/ecma262/2024/#sec-iterator-interface)には、`next()`について次のように記載されています。
 
 >value
 >a function that returns an IteratorResult object
 
-`next`メソッドの返り値は反復結果オブジェクトであることが明記されていますね。
+`next()`メソッドの返り値は反復結果オブジェクトであることが明記されていますね。
 
-また、`next`は以下の要件を満たす必要があることが記されています。
+また、`next()`は以下の要件を満たす必要があることが記されています。
 >Requirement
 >The returned object must conform to the IteratorResult interface. If a previous call to the next method of an Iterator has returned an IteratorResult object whose "done" property is true, then all subsequent calls to the next method of that object should also return an IteratorResult object whose "done" property is true. However, this requirement is not enforced.
 
@@ -77,14 +77,14 @@ for(const num of iterableObject){
 `next`メソッドから返されるオブジェクトは `IteratorResult`インターフェースに準拠すること。 
 イテレータが呼び出した`next`メソッドが、`done`が`true`の反復結果オブジェクトを返した場合、それ以降の`next()`メソッドの呼び出しもすべて、`done`が`true`の反復結果オブジェクトを返す必要がある。しかし、この要件は強制されない。
 
-`next`メソッドは反復結果オブジェクトを返すことが最低限の要件となっているわけですね。
+`next()`メソッドは反復結果オブジェクトを返すことが最低限の要件となっているわけですね。
 
 #### `done`プロパティ
 `done`については、仕様では以下のような要件となっています。
 >Requirement
 >This is the result status of an iterator next method call. If the end of the iterator was reached "done" is true. If the end was not reached "done" is false and a value is available. If a "done" property (either own or inherited) does not exist, it is considered to have the value false.
 
-`done`はイテレータの`next`メソッドの結果を表すプロパティです。
+`done`はイテレータの`next()`メソッドの結果を表すプロパティです。
 イテレータが終端に達した時に`true`となります。
 イテレータが終端に達していない時は`false`となり、値が利用可能です。
 `done`プロパティ（自身のプロパティまたは継承したプロパティ）がないときには、`false`として扱われます。
@@ -115,7 +115,7 @@ https://developer.mozilla.org/ja/docs/Web/JavaScript/Guide/Iterators_and_generat
     }
 }
 ```
-`next`は`{ done: false, value: restNum }`か`{ done: true, value: undefined }`という反復結果オブジェクトを返しており、`done`が`false`のときにのみ値が設定されていることがわかります。
+`next()`は`{ done: false, value: restNum }`か`{ done: true, value: undefined }`という反復結果オブジェクトを返しており、`done`が`false`のときにのみ値が設定されていることがわかります。
 また、一度`done`が`true`となると、それ以降は処理が反復されたとしても`restNum < 10`を満たすことはなく、常に`done`が`true`を返すこともわかります。
 
 確かにこのオブジェクトはイテレータの仕様要件を満たしていますね。
@@ -126,10 +126,10 @@ https://developer.mozilla.org/ja/docs/Web/JavaScript/Guide/Iterators_and_generat
   - `Symbol.iterator`メソッドを持つオブジェクト
   - `Array`や`Map`は組み込みの反復可能オブジェクト
 - **イテレータ（Iterator）**
-  - `next`メソッドを持つオブジェクト
+  - `next()`メソッドを持つオブジェクト
   - `Symbol.iterator`メソッドはイテレータを返す
 - **反復結果オブジェクト（Iterator Reslut Object）**
-  - イテレータの`next`メソッドから返されるオブジェクト
+  - イテレータの`next()`メソッドから返されるオブジェクト
   - `done`と`value`プロパティをもつ
 
 
