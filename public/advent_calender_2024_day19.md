@@ -4,7 +4,7 @@ tags:
   - JavaScript
   - ECMAScript
 private: false
-updated_at: '2024-12-22T04:48:35+09:00'
+updated_at: '2024-12-22T04:55:26+09:00'
 id: c23e8b9a4dde3461ef48
 organization_url_name: null
 slide: false
