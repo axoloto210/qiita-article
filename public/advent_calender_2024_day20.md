@@ -12,7 +12,7 @@ ignorePublish: false
 ## はじめに
 この記事は以下の記事の続きになります。
 
-https://qiita.com/axoloto210/private/c23e8b9a4dde3461ef48
+https://qiita.com/axoloto210/items/c23e8b9a4dde3461ef48
 
 本記事では、イテレータを返す関数である、ジェネレータ関数と、ジェネレータ関数内で使用できる`yield`文についてみていきます。
 
