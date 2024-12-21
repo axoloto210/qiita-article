@@ -3,7 +3,7 @@ title: スプレッド構文やfor/ofを支えるイテレータとはなにか�
 tags:
   - JavaScript
   - ECMAScript
-private: true
+private: false
 updated_at: '2024-12-22T04:48:35+09:00'
 id: c23e8b9a4dde3461ef48
 organization_url_name: null
