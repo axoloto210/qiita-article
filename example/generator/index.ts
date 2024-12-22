@@ -25,3 +25,10 @@ console.log([...iterableObject])
 // }
 
 // console.log([...iterableObject.generatorFn()])
+
+
+function* generatorFn(){
+    yield 1
+} 
+
+type a = Generator
