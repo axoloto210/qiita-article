@@ -3,8 +3,8 @@ title: ジェネレータとイテレータの型をみてみよう
 tags:
   - TypeScript
 private: false
-updated_at: ''
-id: null
+updated_at: '2024-12-23T04:11:44+09:00'
+id: ae2358ed98aa9a660101
 organization_url_name: null
 slide: false
 ignorePublish: false
