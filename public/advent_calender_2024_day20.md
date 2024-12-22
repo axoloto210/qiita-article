@@ -1,5 +1,5 @@
 ---
-title: ジェネレータとyield文
+title: ジェネレータとyield式
 tags:
   - JavaScript
 private: false
@@ -14,7 +14,7 @@ ignorePublish: false
 
 https://qiita.com/axoloto210/items/c23e8b9a4dde3461ef48
 
-本記事では、イテレータを返す関数である、ジェネレータ関数と、ジェネレータ関数内で使用できる`yield`文についてみていきます。
+本記事では、イテレータを返す関数である、ジェネレータ関数と、ジェネレータ関数内で使用できる`yield`式についてみていきます。
 
 ## ジェネレータ
 ジェネレータは反復可能なオブジェクトであり、イテレータでもあります。
@@ -23,7 +23,7 @@ https://qiita.com/axoloto210/items/c23e8b9a4dde3461ef48
 ジェネレータ関数は`function*`によって定義します。
 この関数は呼び出しても関数自体が実行されるのではなく、ジェネレータが返されます。
 
-ジェネレータが通常のイテレータと異なるのは、`next()`メソッドを呼び出した時に、ジェネレータ関数の最初から`yield`文までが実行される点にあります。次に`next()`が呼ばれた時には、前回の`yield`の後からその次の`yield`文までが実行されます。
+ジェネレータが通常のイテレータと異なるのは、`next()`メソッドを呼び出した時に、ジェネレータ関数の最初から`yield`式までが実行される点にあります。次に`next()`が呼ばれた時には、前回の`yield`の後からその次の`yield`式までが実行されます。
 
 ```js
 function* generatorFn () {
@@ -59,7 +59,7 @@ console.log(generator.next().value)
 "after yield 3" 
 undefined 
 ```
-この例から、ジェネレータの`next()`が呼び出されるたびに、ジェネレータ関数の`yield`文までが実行されていることが分かります。
+この例から、ジェネレータの`next()`が呼び出されるたびに、ジェネレータ関数の`yield`式までが実行されていることが分かります。
 
 ### ジェネレータ関数の宣言
 ジェネレータ関数は`function*`で宣言できます。
@@ -123,7 +123,7 @@ const iterableObject = {
 
 console.log([...iterableObject])
 ```
-`[Symbol.iterator]()`メソッドをジェネレータ関数に書き換えることで、`next()`や`next()`の返り値である反復結果オブジェクト`{done: false, value: restNum}`は、`yield`文によって簡潔に書けるようになっています。
+`[Symbol.iterator]()`メソッドをジェネレータ関数に書き換えることで、`next()`や`next()`の返り値である反復結果オブジェクト`{done: false, value: restNum}`は、`yield`式によって簡潔に書けるようになっています。
 
 また、ジェネレータ関数によって`[Symbol.iterator]()`自体を使わずに書き換えることもできます。
 ```js
