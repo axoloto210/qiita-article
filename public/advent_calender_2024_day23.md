@@ -3,7 +3,7 @@ title: ブラウザがHTMLを受け取ってからDOMツリーを構築するま
 tags:
   - HTML
   - ブラウザ
-private: true
+private: false
 updated_at: '2024-12-24T04:06:45+09:00'
 id: 3208ba1446901fe43cae
 organization_url_name: null
@@ -18,8 +18,6 @@ Webサーバーから返されるHTTPレスポンスにはステータスライ�
 レスポンスボディにはHTMLや画像などが含まれますが、ブラウザはこのHTTPレスポンスからHTMLを受け取り、解析・表示を行っています。
 
 本記事では、HTMLがどのように解析され、DOMツリーが構築されていくのかの概要についてみていきます。
-
-CSSやJavaScriptの解析については別の記事で扱います。
 
 ## アドレスバーにURLを入力してからHTMLを受け取るまで
 アドレスバーにURLを入力してからHTMLを受け取るまでの流れを簡単にまとめてみます。
