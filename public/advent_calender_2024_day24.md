@@ -5,7 +5,7 @@ tags:
   - CSS
   - JavaScript
   - ブラウザ
-private: true
+private: false
 updated_at: '2024-12-25T03:36:24+09:00'
 id: e70b5418d96f7d03dcfe
 organization_url_name: null
