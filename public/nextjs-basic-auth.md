@@ -16,6 +16,12 @@ ignorePublish: false
 Next.jsのMiddlewareを使用することで、Basic認証をかけることができます。
 本記事では、App RouterとPages RouterでのBasic認証のかけ方を紹介します。
 
+:::note
+Next.js 16からはmiddlewareではなくproxyという名称に変更になりました。
+middlewareという名称のままでも動作はしますがビルド時に警告が出るようになっています。
+https://nextjs.org/blog/next-16#proxyts-formerly-middlewarets
+:::
+
 
 ## Middleware とは
 Next.jsにはMiddlewareという機能があり、リクエストが完了する前にコードを実行してリクエストを処理し、レスポンスを変更することができます。
@@ -31,6 +37,11 @@ https://nextjs.org/docs/app/api-reference/edge
 middlewareで`fs`を使用しようとすると以下のようなエラーが出ます。
 > ⨯ The edge runtime does not support Node.js 'fs' module.
 >Learn More: https://nextjs.org/docs/messages/node-module-in-edge-runtime
+
+:::note
+Next.js 15.5からはNode.jsのサポートがされるようになりました。
+https://nextjs.org/blog/next-15-5
+:::
 
 ## Basic 認証について
 Basic 認証はHTTP認証方式の１つで、ユーザー名とパスワードを（Base64によってエンコードして）リクエストヘッダに付加して送信することで、認証を行います。
@@ -117,20 +128,23 @@ https://nextjs.org/docs/app/api-reference/functions/next-response
 ### App Router
 App Routerでは、`/app/api/auth/`の下に以下のような`route.ts`ファイルを配置します。
 ```route.ts
-import type { NextApiRequest, NextApiResponse } from 'next'
+import { NextResponse } from "next/server";
 
-export default function handler(_: NextApiRequest, res: NextApiResponse) {
-  res.setHeader('WWW-authenticate', 'Basic realm="Secure Area"')
-  res.statusCode = 401
-  res.end(`Auth Required.`)
+export async function GET() {
+	return new NextResponse("Auth Required.", {
+		status: 401,
+		headers: {
+			"WWW-Authenticate": 'Basic realm="Secure Area"',
+		},
+	});
 }
+
 ```
 
 Basic認証による認証が必要であることをレスポンスヘッダーに付加して返しています。
 
 ### Pages Router
 Pages Router では、`pages/api/`の下に`auth.ts`ファイルを配置します。
-（ファイルの内容はApp Routerの場合と同じです。）
 ```auth.ts
 import type { NextApiRequest, NextApiResponse } from 'next'
 
