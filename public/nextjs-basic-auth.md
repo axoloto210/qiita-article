@@ -6,7 +6,7 @@ tags:
   - AppRouter
   - PagesRouter
 private: false
-updated_at: '2024-06-15T20:29:34+09:00'
+updated_at: '2025-11-01T01:18:23+09:00'
 id: 747eb784e61b173d30b8
 organization_url_name: null
 slide: false
